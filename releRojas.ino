@@ -16,7 +16,7 @@ void prenderLuz(int mins){
 
   digitalWrite(7, HIGH);  // turn the BULB on (HIGH is the voltage level)
 
-  delay(mins*60*1000);//tiempo en milis para no hacer cagadas 
+  delay(mins*60*1000);//tiempo en milis para no hacer las cosas mal
 
   digitalWrite(7, LOW);  // turn the BULB off by making the voltage LOW
 }
